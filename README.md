@@ -17,3 +17,4 @@ A browser-based Rock Paper Scissors game with hand images for choices and result
 
 ## References
 - Images from Flaticon.com.
+https://github.com/arnoldarante104/DC101_Arrnold-Jr.-H.-Arante.git
