@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Mini Arcade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <p>Test your luck against the computer! Choose your hand gesture.</p>
+    </header>
+    <main>
+        <section id="game-area">
+            <div id="choices">
+                <button id="rock" class="choice-btn">
+                    <img src="rock.jpg" alt="Rock (Fist)" class="hand-img">
+                    <span>Rock</span>
+                </button>
+                <button id="paper" class="choice-btn">
+                    <img src="paper.jpg" alt="Paper (Open Hand)" class="hand-img">
+                    <span>Paper</span>
+                </button>
+                <button id="scissors" class="choice-btn">
+                    <img src="scissor.jpg" alt="Scissors (Gesture)" class="hand-img">  
+                    <span>Scissors</span>
+                </button>
+            </div>
+            <div id="results">
+                <div class="hand-display">
+                    <p>Your choice:</p>
+                    <img id="player-hand" src="" alt="Your hand" class="chosen-hand result-img" style="display: none;">
+                </div>
+                <div class="hand-display">
+                    <p>Computer's choice:</p>
+                    <img id="computer-hand" src="" alt="Computer's hand" class="chosen-hand result-img" style="display: none;">
+                </div>
+                <p id="outcome">Result: <span id="outcome-display">-</span></p>
+            </div>
+            <div id="score">
+                <p>Wins: <span id="wins">0</span> | Losses: <span id="losses">0</span> | Ties: <span id="ties">0</span></p>
+                <button id="reset-btn">Reset Score</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Built for DC 101 Web Development. <a href="https://github.com/ArlynDV" target="_blank">Inspired by GitHub examples</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
